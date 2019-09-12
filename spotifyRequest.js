@@ -10,7 +10,7 @@ var SpotifyWebApi = require('spotify-web-api-node');
 
 
 var clientId = 'f4c03ff11fe8453b8654e0ed3bbd06d2',
- clientSecret = '6d58b8cc1f6d4d1ab70ebb7cf2eb5c2b';
+ 
 
 // // Create the api object with the credentials
 // var spotifyApi = new SpotifyWebApi({
