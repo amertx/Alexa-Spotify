@@ -20,13 +20,13 @@ var clientId = 'f4c03ff11fe8453b8654e0ed3bbd06d2',
 
 var spotifyApi = new SpotifyWebApi();
 
-// //get an artists top tracks
-// spotifyApi.getArtistTopTracks('0oSGxfWSnnOXhD2fKuz2Gy', 'GB')
-//   .then(function(data) {
-//     console.log(data.body);
-//     }, function(err) {
-//     console.log('Something went wrong!', err);
-//   });
+//get an artists top tracks
+spotifyApi.getArtistTopTracks('0oSGxfWSnnOXhD2fKuz2Gy', 'GB')
+ .then(function(data) {
+    console.log(data.body);
+}, function(err) {     
+    console.log('Something went wrong!', err);
+});
 
 Retrieve an access token.
 spotifyApi.clientCredentialsGrant().then(
